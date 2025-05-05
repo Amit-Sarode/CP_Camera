@@ -197,8 +197,8 @@ import { useState, useEffect } from "react";
 import hikdata from "../assets/data.json";
 import { motion } from "framer-motion";
 
-const googleKey = import.meta.env.VITE_REACT_APP_GOOGLE_KEY || "";
-const googleProjID = import.meta.env.VITE_REACT_APP_GOOGLE_PROJ_ID || "";
+// const googleKey = import.meta.env.VITE_REACT_APP_GOOGLE_KEY || "";
+// const googleProjID = import.meta.env.VITE_REACT_APP_GOOGLE_PROJ_ID || "";
 const hikData = hikdata.HIK;
 
 const SearchBar = () => {
