@@ -279,8 +279,10 @@ const [addedIds, setAddedIds] = useState<string[]>(() => {
         // && itemsResult.length > 0
         if (hikFiltered.length===0   ) {
           const params = new URLSearchParams({
-            key: googleKey,
-            cx: googleProjID,
+            // key: googleKey,
+key:"AIzaSyB_8Dzwm9ZMYdV1qhZay4_lUmMHV2uRnpI",
+            // cx: googleProjID,
+            cx:"f1699ff926a0c490b",
             q: searchText,
           });
 
