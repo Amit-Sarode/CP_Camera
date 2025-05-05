@@ -1,0 +1,215 @@
+{
+    "HIK": [
+      {"id": 1,
+        "name": "AI-SCB343",
+        "description": "AI Supported 4MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Bullet Camera",
+        "img": "https://static.wixstatic.com/media/72407f_34711379d5e94d56b3dc3af8d648f6f0~mv2.jpeg/v1/fill/w_720,h_720,al_c,lg_1,q_85,enc_avif,quality_auto/72407f_34711379d5e94d56b3dc3af8d648f6f0~mv2.jpeg",
+        "price":"$2,730.00"
+      },
+      {"id": 2,
+        "name": "AI-SCB383",
+        "description": "AI Supported 8MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Bullet Camera",
+        "img": "https://static.wixstatic.com/media/72407f_34711379d5e94d56b3dc3af8d648f6f0~mv2.jpeg/v1/fill/w_720,h_720,al_c,lg_1,q_85,enc_avif,quality_auto/72407f_34711379d5e94d56b3dc3af8d648f6f0~mv2.jpeg",
+        "price":" $2,700.00"
+      },
+      {"id": 3,
+        "name": "AI-SCD343",
+        "description": "AI Supported 4MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Dome Camera",
+        "img": "https://static.wixstatic.com/media/72407f_34711379d5e94d56b3dc3af8d648f6f0~mv2.jpeg/v1/fill/w_720,h_720,al_c,lg_1,q_85,enc_avif,quality_auto/72407f_34711379d5e94d56b3dc3af8d648f6f0~mv2.jpeg",
+        "price":"$2,750.00"
+      },
+        {
+          "id": 4,
+          "name": "AI-SCD383",
+          "description": "AI Supported 8MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Dome Camera",
+          "price": "$2,850.00"
+        },
+        {
+          "id": 5,
+          "name": "AI-SCB723",
+          "description": "AI Supported 2MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Bullet Camera",
+          "price": "$6,640.00"
+        },
+        {
+          "id": 6,
+          "name": "AI-SCB745",
+          "description": "AI Supported 4MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Bullet Camera",
+          "price": "$7,110.00"
+        },
+        {
+          "id": 7,
+          "name": "AI-SCB786",
+          "description": "AI Supported 8MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Bullet Camera",
+          "price": "$7,300.00"
+        },
+        {
+          "id": 8,
+          "name": "AI-SCB586",
+          "description": "AI Supported 8MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Bullet Camera",
+          "price": "$3,340.00"
+        },
+        {
+          "id": 9,
+          "name": "AI-SCP532",
+          "description": "AI Supported 3MP, H265/H264, IP66 Certified, SSL Secure, up to 60m IR PTZ Camera",
+          "price": "$6,000.00"
+        },
+        {
+          "id": 10,
+          "name": "AI-SCP562",
+          "description": "AI Supported 3MP, H265/H264, IP66 Certified, SSL Secure, up to 60m IR PTZ Camera",
+          "price": "$6,840.00"
+        },
+        {
+          "id": 11,
+          "name": "AI-TCV501",
+          "description": "AI Supported 5MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Bullet Camera",
+          "price": "$28,000.00"
+        },
+        {
+          "id": 12,
+          "name": "AI-TCV701",
+          "description": "AI Supported 7MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Bullet Camera",
+          "price": "$34,400.00"
+        },
+        {
+          "id": 13,
+          "name": "AI-TCV900",
+          "description": "AI Supported 9MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Bullet Camera",
+          "price": "$42,626.30"
+        },
+        {
+          "id": 14,
+          "name": "AI-SCB746/P",
+          "description": "AI Supported 4MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Bullet Camera",
+          "price": "$6,220.00"
+        },
+        {
+          "id": 15,
+          "name": "AI-SCB726",
+          "description": "AI Supported 2MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Bullet Camera",
+          "price": "$5,900.00"
+        },
+        {
+          "id": 16,
+          "name": "AI-SCB746",
+          "description": "AI Supported 4MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Bullet Camera",
+          "price": "$6,800.00"
+        },
+        {
+          "id": 17,
+          "name": "AI-SCD726",
+          "description": "AI Supported 2MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Dome Camera",
+          "price": "$5,520.00"
+        },
+        {
+          "id": 18,
+          "name": "AI-SCD746",
+          "description": "AI Supported 4MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Dome Camera",
+          "price": "$6,000.00"
+        },
+        {
+          "id": 19,
+          "name": "AI-SCD7526",
+          "description": "AI Supported 2MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Dome Camera",
+          "price": "$6,420.00"
+        },
+        {
+          "id": 20,
+          "name": "AI-SCD7546",
+          "description": "AI Supported 4MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Dome Camera",
+          "price": "$6,900.00"
+        },
+        {
+          "id": 21,
+          "name": "AI-SCD7586",
+          "description": "AI Supported 8MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Dome Camera",
+          "price": "$7,300.00"
+        },
+        {
+          "id": 22,
+          "name": "AI-SCB321",
+          "description": "AI Supported 2MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Bullet Camera",
+          "price": "$650.00"
+        },
+        {
+          "id": 23,
+          "name": "AI-SCB341",
+          "description": "AI Supported 4MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Bullet Camera",
+          "price": "$690.00"
+        },
+        {
+          "id": 24,
+          "name": "AI-SCB381",
+          "description": "AI Supported 8MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Bullet Camera",
+          "price": "$750.00"
+        },
+        {
+          "id": 25,
+          "name": "AI-SCD321",
+          "description": "AI Supported 2MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Dome Camera",
+          "price": "$690.00"
+        },
+        {
+          "id": 26,
+          "name": "AI-SCD341",
+          "description": "AI Supported 4MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Dome Camera",
+          "price": "$730.00"
+        },
+        {
+          "id": 27,
+          "name": "AI-SCD381",
+          "description": "AI Supported 8MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Dome Camera",
+          "price": "$800.00"
+        },
+        {
+          "id": 28,
+          "name": "AI-SCP732",
+          "description": "AI Supported 2MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR Moto Dome Camera",
+          "price": "$8,400.00"
+        },
+        {
+          "id": 29,
+          "name": "AI-SCPW842",
+          "description": "AI Supported 2MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR PTZ Camera",
+          "price": "$17,200.00"
+        },
+        {
+          "id": 30,
+          "name": "AI-SCPW835",
+          "description": "AI Supported 2MP, H265/H264, IP67 Certified, SSL Secure, up to 60m IR PTZ Camera",
+          "price": "$18,020.00"
+        },
+        {
+          "id": 31,
+          "name": "AI-SK05",
+          "description": "AI Based, 4-way control keyboard with assignable keys, compatible with NVR, DVR and various cameras",
+          "price": "$1,890.00"
+        },
+        {
+          "id": 32,
+          "name": "AI-SK11",
+          "description": "AI Based, Compatible with NVR, DVR and various cameras, supporting up to 32 users, 7\" TFT LCD screen, 4-way control keyboard",
+          "price": "$23,400.00"
+        },
+        {
+          "id": 33,
+          "name": "AI-SRS16",
+          "description": "AI Supported, 16 channels, 4 HDD slots, 256Mbps bandwidth, 4K recorder",
+          "price": "$24,200.00"
+        },
+        {
+          "id": 34,
+          "name": "AI-SRS32",
+          "description": "AI Supported, 32 channels, 8 HDD slots, 320Mbps bandwidth, 4K recorder",
+          "price": "$40,000.00"
+        },
+        {
+          "id": 35,
+          "name": "AI-SRS64",
+          "description": "AI Supported, 64 channels, 16 HDD slots, 512Mbps bandwidth, 4K recorder",
+          "price": "$87,300.00"
+        }
+    ]
+  }
+  
