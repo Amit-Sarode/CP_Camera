@@ -3,6 +3,9 @@ import { Document, Page, pdfjs } from "react-pdf";
 import * as XLSX from "xlsx";
 import { motion } from "framer-motion";
 import welcomeImg from "../assets/cuate.svg";
+import pdf from '../assets/sample_file.pdf'
+import { saveAs } from 'file-saver';
+// import excel from '../assets/sample_file.xlsx';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
 
@@ -111,6 +114,30 @@ const Tender: React.FC = () => {
     const file = e.target.files?.[0];
     if (file) handleFile(file);
   };
+  const downloadPDf = () => {
+    const link = document.createElement('a');
+    link.href = pdf;  
+    link.download = "sample data";  
+    link.click();  
+    URL.revokeObjectURL(link.href);
+  };
+
+  const downloadExcel = () => {
+    fetch('/sample_file.xlsx')
+      .then((res) => res.arrayBuffer())
+      .then((data) => {
+        const workbook = XLSX.read(data, { type: 'array' });
+        const worksheet = workbook.Sheets[workbook.SheetNames[0]];
+        const jsonData = XLSX.utils.sheet_to_json(worksheet);
+        const worksheetNew = XLSX.utils.json_to_sheet(jsonData);
+        const workbookNew = XLSX.utils.book_new();
+        XLSX.utils.book_append_sheet(workbookNew, worksheetNew, 'Sheet1');
+        const excelBuffer = XLSX.write(workbookNew, { bookType: 'xlsx', type: 'array' });
+        const dataSheet = new Blob([excelBuffer], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=UTF-8' });
+        saveAs(dataSheet, "sample data" + '.xlsx');
+      });
+  };
+
 
   return (
     <>
@@ -147,6 +174,11 @@ const Tender: React.FC = () => {
             className="absolute w-100 h-40 opacity-0 cursor-pointer"
           />
           <p className="text-gray-500">Click or drag & drop to upload</p>
+        </div>
+        <div className="flex justify-between lg:w-120 pt-5 md:flex-row flex-col gap-5">
+          <button onClick={downloadPDf}
+           className="px-5 py-3 bg-blue-300 rounded-md" >Sample data as Pdf</button>
+          <button onClick={downloadExcel} className="px-5 py-3 bg-blue-300 rounded-md">Sample data as Excel</button>
         </div>
 
         {/* Validation Result */}
